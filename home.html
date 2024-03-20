@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center align the links horizontally */
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.background-square {
+    background-color: #fff;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 13px;
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="resume.html">Resume</a>
+  <a href="about.html">About</a>
+  <a href="project.html">Projects</a>
+  <a href="certificate.html">Certificates</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="container">
+    <div class="background-square">
+      <div class="profile">
+        <div class="picture">
+          <img src="home.png">
+        </div>
+        <div class="profile-content">
+          <h1>YOLO</h1>
+          <p>
+            Hello, this is Mark Benedict Capili. I'm looking forward to working with you and
+            sharing my knowledge. As an IT student, I am immersed in a world of constantly 
+            evolving technology and limitless possibilities. From programming languages to 
+            network architecture, each aspect of IT presents a distinct challenge and opportunity
+            for advancement.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
